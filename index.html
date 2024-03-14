@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Juan Ramos</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
         <div class=" hero">
             <h1 class="hero__title">Hola, soy <br><span class="hero__name">Juan Ramos</span></h1>
-            <p class="hero__text">Soy programador Full-stack, me apasiona aprender y crear formas diferentes de solucionar problemas. </p>
+            <p class="hero__text">Soy programador Full-stack, me apasiona aprender y crear formas diferentes de solucionar problemas. <br><br> <i><span class="quote">La inspiración desbloquea el futuro. <span class="autor">-Hayao Miyazaki</span> </span></i></p>
+            
             <a name="AboutMe"></a>
         </div>
         <nav>
@@ -26,19 +28,24 @@
     </header>
     <main>
         <div class= "container aboutMe">
-            <h2 class="title h2">About me</h2>
-            <a name="Habilidades"></a>
-            <div class="aboutMe_content">
-                <p class="text p">Soy Juan Camilo Ramos, soy colombiano tengo 26 años y me apasiona la programación, me gusta investigar y aprender sobre nuevas tecnologias y como poder aplicarlas en mis proyectos.</p>
-                <div class="perfil">            </div>
-            </div>
             <a name="AboutMe"></a>
+            <h2 class="title h2">About Me</h2>
+            <div class="aboutMe_content">
+                <p class="text p">¡Hola! Soy Juan Camilo Ramos, un apasionado desarrollador colombiano de 26 años. Mi pasion por la programación y mi curiosidad insaciable me llevan a explorar constantemente las últimas tecnologías y descubrir cómo aplicarlas en mis proyectos. <br>
+                Me encanta traducir ideas en código, no me conformo con lo básico. Investigo a fondo para entender cómo funcionan las nuevas herramientas. Las tecnologías está en constante evolución, y yo también. <br>
+                Cuando no estoy inmerso en líneas de código, experimento con ingredientes y sabores. Preparar platillos únicos es mi forma de relajarme. 
+                Los videojuegos son mi escape. Ya sea explorando mundos virtuales o compitiendo en línea, encuentro inspiración en la narrativa y la creatividad de los juegos. <br>
+                Tambien me gustan las series y películas de anime. La diversidad de géneros y estilos me inspira y me ayuda a mantener mi mente abierta.</p>
+                <div class="perfil">            </div>
+                <a name="Habilidades"></a>
+            </div>
         </div>
+        
         <div class="container habilidades">
             <h2 class="title h2">Habilidades</h2>
-            <p class="text p">Algunas de mis mayoes habilidades son la facilidad de comprender nuevos conceptos y poder adaptarme a ellos, un buen trabajo en equipo y liderazgo en caso de que se requiera. </p>
+            <p class="text p">Algunas de mis mayores habilidades incluyen la facilidad para comprender nuevos conceptos y adaptarme a ellos. Además, tengo experiencia en trabajo en equipo y puedo asumir un rol de liderazgo cuando sea necesario. </p>
             <a name="Proyectos"></a>
-            <h4>Entre los lenguajes de programacion que manejo estan:</h4>
+            <h4>Entre los lenguajes de programación que manejo se encuentran:</h4>
             <div class="button lenguajes">
                 <button class="btnIcon", id="HTML"></button>
                 <button class="btnIcon", id="CSS"></button>
@@ -48,7 +55,7 @@
                 <button class="btnIcon", id="JAVA"></button>
             </div>
         </div>
-        <div class="container">
+        <div class="container Proyectos">
             <h2 class="title h2" >Proyectos</h2>
             <div class="proyectos">
                 <div class="proyecto_cards">
@@ -56,6 +63,23 @@
                         <a target="_blank" href="./calculadora/calculadora-tutorial.html">
                             <div class="proyecto proyect1">
                                 <h3>Calculadora</h3>
+                            </div>
+                        </a>
+                        <div>
+                            <span class="proyecto_span">Tecnologias Usadas</span>
+                            <div class="proyectos__lenguajes">
+                                <div class="container_logod" id="HTML">
+                                </div>
+                                <div class="container_logod" id="CSS">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="proyecto1">
+                        <a target="_blank" href="">
+                            <div class="proyecto proyect2">
+                                <h3>Portafolio</h3>
                             </div>
                         </a>
                         <div>
@@ -79,26 +103,32 @@
             </div>
 
         </div>
-        <div class="container contacto">
-            <h2 class="title h2">Contacto</h2>
-            <div class="final"
-                <div class="contact">
-                    <button class="btnContact" id="Github"> <a target="_blank" href="https://github.com/Juan-C-Ramos">
-                        <img class="iconContact" src="./assets/img/icons/GitHub-logo.png" alt="">
-                    </a></button>
-                    <button class="btnContact" id="Github"> <a target="_blank" href="https://www.linkedin.com/in/juan-ramos-4902a02b5/">
-                        <img class="iconContact" src="./assets/img/icons/linkedin.png" alt="">
-                    </a></button>
-                </div>
-                
-            </div>
-            <div class="final a">
-                <p class="final"><i class="material-icons ">location_on</i> Panamá, Panamá</p>
-
-            <spam class="final" ><i class="material-icons">email</i> <EMAIL>juan_cr_1997@hotmail.com</spam>
-            </div>
-            
-        </div>
+         
     </main>  
 </body>
+<footer>
+    <div class="footer">
+        <div class="contact">
+            <a target="_blank" href="https://www.linkedin.com/in/juan-ramos-4902a02b5/">
+                <div class="contactIcon linkedin">
+                </div>
+            </a>
+            <a target="_blank" href="https://github.com/Juan-C-Ramos">
+                <div class="contactIcon github">
+                </div>
+            </a>
+            <a target="_blank" href="mailto:<juan_cr_1997@hotmail.com>">
+                <div class="contactIcon email">
+                </div>
+            </a>
+        </div>
+        <div class="correo">
+            <span class="material-symbols-outlined icon">
+                mail
+            </span>
+            <span> juan_cr_1997@hotmail.com</span>
+        </div>
+    </div>
+</footer>
+<br><br><br>
 </html>
