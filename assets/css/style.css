@@ -494,7 +494,11 @@ main{
     background-position: center;
 }
 .contactIcon.github{
+<<<<<<< HEAD
     background-image: url("../img/icons/GitHub-white.png");
+=======
+    background-image: url("../img/icons/Github-white.png");
+>>>>>>> 938ae0498c026f61fa54010c5d49609b78524603
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
