@@ -28,6 +28,14 @@ html{
     background-size: cover;
     background-position:center;
     }
+    nav .logo{
+        background-image: url("../img/icons/logo.png");
+        background-size: cover;
+        background-position: center;
+        height: 75px;
+        width: 75px;
+        margin-left: 25px ;
+     }
 .text.p{
     text-align: left;
 }
@@ -135,12 +143,7 @@ html{
         top:0;
         width:100%;
      }
-     nav .logo{
-        font-size: 0px;
-        font-weight:rgb(248, 247, 247);
-        color: whitesmoke;
-        margin-left: 20px;
-     }
+     
      nav .barnav{
         display:grid;
         grid-template-columns: repeat(2,auto);
@@ -291,11 +294,7 @@ nav{
    top:0;
    width:100%;
 }
-nav .logo{
-   font-size: 24px;
-   font-weight:rgb(248, 247, 247);
-   color: whitesmoke;
-}
+
 nav .barnav{
    display:grid;
    grid-template-columns: repeat(4,auto);
