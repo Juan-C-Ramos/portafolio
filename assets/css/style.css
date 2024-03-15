@@ -185,6 +185,7 @@ html{
         gap: 10px;
         justify-content: center;
         align-items: center;
+        padding: 30px;
         
     }
 
@@ -535,7 +536,7 @@ main{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 }
 
