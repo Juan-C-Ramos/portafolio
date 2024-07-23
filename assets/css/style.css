@@ -214,7 +214,7 @@ html{
         grid-template-columns: repeat(2, 2fr);
     }
     .proyect1{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/calc.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/rickandmortypedia.png");
         background-size:cover;
         color: white !important;
     }
@@ -222,6 +222,12 @@ html{
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/portafolio.jpg");
         background-size:cover;
         color: white!important;
+    }
+    .proyect3{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/fortunecokies.png");
+        background-size:cover;
+        background-position: center;
+        color: white !important;
     }
 
     .proyectos__lenguajes{
@@ -360,16 +366,22 @@ main{
 }
 .proyecto_cards{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3, 3fr);
 }
 .proyect1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/calc.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/rickandmortypedia.png");
     background-size:cover;
     color: white !important;
 }
 .proyect2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/portafolio.jpg");
     background-size:cover;
+    color: white !important;
+}
+.proyect3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/fortunecokies.png");
+    background-size:cover;
+    background-position: center;
     color: white !important;
 }
 .proyectos__lenguajes{
@@ -423,6 +435,25 @@ main{
     background-position: center;
     background-size: contain;
 }
+#REACT{
+    background-image: url("../img/icons/react.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#NODE{
+    background-image: url("../img/icons/node.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#POSTGRESQL{
+    background-image: url("../img/icons/postgresql.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 
 .btnIcon:hover{
     border: 5px solid rgba(255, 0, 0, 0);
@@ -518,6 +549,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 
 
