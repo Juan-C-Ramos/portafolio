@@ -48,11 +48,12 @@ html{
     }
 .container{
     padding: 10px;
+    padding-top: 10%;
     border-radius: 20px !important;
     margin-bottom: 30px !important;
     background-color: black;
     border: 3px solid rgb(22, 22, 22);
-    height: 100% !important;
+    height: 80vh !important;
 }
 .proyectos{
     text-align: center;
