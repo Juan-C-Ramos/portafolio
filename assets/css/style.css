@@ -43,9 +43,7 @@ html{
 .btnIcon{
      background-color: transparent !important;
 }
-.btnIcon{
-    background-color: transparent !important;
-    }
+
 .container{
     padding: 10px;
     padding-top: 10%;
@@ -213,6 +211,7 @@ html{
     .proyecto_cards{
         display: grid;
         grid-template-columns: repeat(2, 2fr);
+        gap: 30px;
     }
     .proyect1{
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/rickandmortypedia.png");
@@ -368,6 +367,7 @@ main{
 .proyecto_cards{
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    gap: 30px;
 }
 .proyect1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/rickandmortypedia.png");
@@ -513,6 +513,13 @@ main{
     width: 40px;
     justify-content: center;
 }
+.proyectRepo{
+    position: relative;
+    left: 45% ;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+}
 .contactIcon.linkedin{
     background-image: url("../img/icons/linkedin-white.png");
     background-size: cover;
@@ -525,7 +532,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
-.contactIcon.github{
+.github{
     background-image: url("../img/icons/GitHub-white.png");
     background-size: cover;
     background-repeat: no-repeat;
